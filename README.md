@@ -1,6 +1,6 @@
-# Proyecto Final
+# Explorador_EPWs
 
-Proyecto creado por J. R. Hernandez.
+Web App creada por J. R. Hernandez.
 
 ## Versión
 
