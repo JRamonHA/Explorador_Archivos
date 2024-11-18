@@ -6,7 +6,7 @@ f = './data/Tmx.csv'
 tmx = pd.read_csv(f, index_col=0, parse_dates=True)
 columnas = list(tmx.columns)
 
-ui.page_opts(title="Explorador EPWs")
+ui.page_opts(title="Explorador de archivos")
 
 with ui.sidebar():
     ui.input_select("var", "Selecciona una variable", choices=columnas)
