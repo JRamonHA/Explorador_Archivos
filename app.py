@@ -10,7 +10,7 @@ ui.page_opts(title="Explorador de archivos")
 
 with ui.sidebar():
     ui.input_select("var", "Selecciona una variable", choices=columnas)
-    ui.input_switch("month", "Promedio de remuestreo por mes", value=True)
+    ui.input_switch("month", "Promedio mensual", value=True)
 
 @render.ui
 def grafica():
